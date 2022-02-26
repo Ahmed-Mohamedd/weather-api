@@ -1,0 +1,242 @@
+body
+{
+    background-color: #1E202B;
+}
+.navbar
+{
+    background-color: #1E202B !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 9999;
+}
+.navbar  .brand-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar .brand-text h1
+{
+    font-size: 1.4rem;
+}
+.navbar .navbar-nav .nav-item   /*#0598D8*/
+{
+    margin: 3px;
+    width: 120px;
+    text-align: center;
+    
+}
+.navbar .navbar-nav .nav-item:hover  .nav-link
+{
+    color: #0598D8;
+    padding: 5px ;
+    border: 2px solid #0598D8;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+.navbar .navbar-nav .nav-item .nav-link.active
+{
+    color: #0598D8;
+    padding: 5px ;
+    border: 2px solid #0598D8;
+    
+}
+.main
+{
+    height: 500px;
+    background-image: url(../img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    width: 60%;
+    position: relative;
+}
+.form input
+{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: #1E202B;
+    border: none;
+    border-radius: 30px;
+}
+::placeholder
+{
+    font-size: 0.9rem;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.form .find
+{
+    position: absolute;
+    top: 14px;
+    right: 30px;
+    padding: 4px 25px;
+    background-color: #0598D8;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+.forecast
+{
+    background-color: #1E202B;
+}
+.date
+{
+    background-color: #1f212a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #BAB8A4;
+    border-top-left-radius: 8px ;
+    border: 1px solid #26272b;
+    padding: 5px 0;
+}
+.date h5
+{
+    font-size: 16px;
+    margin-left: 10px ;
+}
+.date h4
+{
+    font-size: 18px;
+    margin-right: 10px ;
+}
+.date h4 span
+{
+    margin-right: 5px;
+}
+.info
+{
+    background-color: #323544;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.info h3
+{
+    font-size: 22px;
+    color: #BAB8A4;
+    margin-top: 10px;
+}
+.info .temperature
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 15px 0;
+}
+.info .temperature h2
+{
+    font-size: 4.4rem ;
+}
+.info .condition h5
+{
+    color: #0598D8;
+    font-size: 18px;
+    margin-top: 5px ;
+}
+.info .more-info
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.another-day .date
+{
+    background-color: #232632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BAB8A4;
+    border-top-left-radius: 8px ;
+    border: 1px solid #26272b;
+    padding: 5px 0;
+}
+.another-day .info
+{
+    background-color: #262936;
+}
+.another-day .info .temperature
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.another-day .info .temperature img
+{
+    margin-bottom: 20px;
+}
+
+.another-day .info .condition h5
+{
+    padding: 16px 0 ;
+    font-size: 18px;
+}
+.another-day .info .temperature h2
+{
+    font-size: 2.5rem ;
+}
+
+footer
+{
+    background-color:#262936 ;
+}
+.subscribe .form
+{
+    width: 100%;
+}
+.socials .social-icons
+{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socials .social-icons li
+{
+    width: 40px;
+    height: 40px;
+    /* text-align: center; */
+    color: #0598D8;
+    background-color: #1E202B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.socials .social-icons li:hover
+{
+    color: #1E202B;
+    background-color: #0598D8;
+}
+.socials .social-icons li i
+{
+    font-size: 22px;
+}
